@@ -18,7 +18,7 @@ FAST is a browser extension that allows you to easily download videos from YouTu
 
 ### NB : Repeat 1 to 3 for both backend and frontend
 
-💻 [Link to Backend]https://github.com/raireet/youtube-download-extension/blob/main/app.js
+💻 [Link to Backend]https://github.com/raireet/youtube-downloader-server
 
 1. Clone the repository
 2. Run `npm install` to install dependencies

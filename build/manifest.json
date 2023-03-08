@@ -1,0 +1,32 @@
+{
+  "short_name": "FAST",
+  "name": "FAST",
+  "version": "1.0.1.0",
+  "description": "FAST {author : 'REET RAI'}",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "icons": {
+    "16": "./icons/downloader-removebg-preview (4).png",
+    "32": "./icons/downloader-removebg-preview (3).png",
+    "48": "./icons/downloader-removebg-preview (2).png",
+    "128": "./icons/logo.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "FAST",
+    "default_icon": {
+      "16": "./icons/downloader-removebg-preview (4).png",
+      "32": "./icons/downloader-removebg-preview (3).png",
+      "48": "./icons/downloader-removebg-preview (2).png",
+      "128": "./icons/logo.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "manifest_version": 3
+}
